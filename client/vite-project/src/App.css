@@ -1,0 +1,162 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.body{
+  background-color: #00aaff;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.container {
+  max-width: 50000px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #ffffff;
+  
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #0021fb;
+  border-radius: 4px;
+  transition: border-color 0.3s ease; /* Add transition for border-color with a duration of 0.3 seconds */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+  border-color: #ff6600; /* Change border-color on focus */
+}
+
+
+.button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #00aaff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-radius 0.5s; /* Add transition for border-radius with a duration of 0.5 seconds */
+}
+
+.button:hover {
+  background-color: #0056b3;
+  border-radius: 50px; /* Adjust the border-radius on hover */
+}
+
+
+.loo{
+  color: red;
+  font-style: oblique;
+
+}
+ 
+.default{
+  color: #333;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+
+
+
+
+
+
+.loo {
+  color: #3f51b5;
+}
+
+
+
+.button {
+  background-color: #3f51b5;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 9%;
+  margin-top: 9%;
+}
+
+.button:hover {
+  background-color: #2e409a;
+}
+
+.default:focus {
+  outline: none;
+  box-shadow: 0 0 2px 1px #3f51b5;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 2px 1px #ddd;
+}
+
+li div {
+  margin-bottom: 5px;
+}
+
+
+
